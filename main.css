@@ -1,1 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
 
+body{
+    padding:0;
+    margin:0;
+    font-family: Roboto ;
+}
+
+
+.container{
+    width:65%;
+    margin:auto;
+    overflow: hidden;
+}
+
+
+header{
+    border-bottom: 1px solid #eaf0fa;
+}
+header a{
+    font-family:Arial;
+    text-decoration: none;
+    color:black;
+    font-size: 20;
+}
+header ul{
+    margin:0;
+    padding:0;
+}
+header li{
+    display:inline;
+    padding:0 30px 0 30px;
+}
+header nav{
+    float:right;
+    margin-top: 20px;
+}
+header .logoHeader{
+    float:left;
+    margin:10px 0 10px 0;
+}
+header li :hover {
+    border-bottom:2px solid #555;
+}
+
+
+#show-news{
+    background-color:#555; 
+    margin:0 15%;
+    height:40%;
+}
+
+#eerste{
+    float:left;
+    width:50%;
+    height:100%;
+}
+#eerste h1{
+    color:white;
+    margin-top:300px;
+    font-size:30px;
+    margin-bottom:0;
+}
+#eerste p{
+    margin:5px 0 0 0;
+}
+#tweede h1{
+    color:white;
+    margin-top:300px;
+    font-size:30px;
+    margin-bottom:0;
+}
+#tweede p{
+    margin:5px 0 0 0;
+}
