@@ -50,20 +50,21 @@ header li :hover {
 
 
 #show-news{
-    background-color:#555; 
     margin:0 25%;
     height:40%;
 }
 
 #eerste{
+    border-bottom-left-radius: 20px;
     float:left;
     width:50%;
     height:100%;
-    margin-left:1em;
+    padding-left:1em;
+    background-image: url("https://st2.depositphotos.com/1001555/12334/i/950/depositphotos_123342522-stockafbeelding-vreemde-valuta-bankbiljetten.jpg://s3-storage.textopus.nl/wp-content/uploads/2015/10/17172744/valuta-omrekenen-512x324.jpg");
 }
 #eerste h1{
     color:white;
-    margin-top:300px;
+    margin-top:250px;
     font-size:30px;
     margin-bottom:0;
 }
@@ -72,11 +73,16 @@ header li :hover {
 }
 
 #tweede{
-    margin-left:1em;
+    width:50%;
+    height:100%;
+    float:right;
+    padding-left:1em;
+    border-bottom-right-radius: 20px;
+    background-image: url("https://www.statnews.com/wp-content/uploads/2019/04/AP_19116489195346-645x645.jpg");
 }
 #tweede h1{
     color:white;
-    margin-top:300px;
+    margin-top:250px;
     font-size:30px;
     margin-bottom:0;
     
