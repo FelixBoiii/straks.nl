@@ -20,12 +20,16 @@ body{
 
 .containerExtra{
     overflow: hidden;
-    width:;
 }
 
 
 header{
-    border-bottom: 2px solid rgb(214, 214, 214);
+    /*border-bottom: 1px solid rgba(100, 100, 100, 0.6);*/
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color:rgb(255, 255, 255);
 }
 header a{
     font-family:Arial;
@@ -103,17 +107,41 @@ header li :hover {
 
 
 #news-block{
-    
-}
-
-.img-block{
-    
+    margin:0;
+    padding:0;
 }
 
 .news-block-ul{
     margin:0;
-    padding-left:1em;
-    padding-bottom:1em;
+    padding:0;
+    width:47%;
+    
+    
+}
+
+.news-block-li{
+    list-style-type: none;
+    margin:1em 1em 0 1em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.news-block-li a{
+    text-decoration: none;
+    color:black;
+    
+}
+
+.news-block-li a img{
+    width: 100%;
+    max-width: none;
+}
+/*.img-block{
+
+}
+
+.news-block-ul{
+    margin:0;
+       
 }
 
 .news-block-li{
@@ -123,7 +151,7 @@ header li :hover {
 .news-block-li a{
     text-decoration: none;
     color:black;
-}
+}*/
 
 .newsBlockHeader{
     background: transparent;
