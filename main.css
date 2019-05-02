@@ -6,11 +6,16 @@ body{
     font-family: Roboto ;
 }
 
-
+.containerHeader{
+    width:50%;
+    margin:auto;
+    overflow: hidden;
+}
 .container{
     width:50%;
     margin:auto;
     overflow: hidden;
+    border-bottom: 2px solid rgb(161, 161, 161);
 }
 
 .containerExtra{
@@ -20,7 +25,7 @@ body{
 
 
 header{
-    border-bottom: 1px solid #eaf0fa;
+    border-bottom: 2px solid rgb(214, 214, 214);
 }
 header a{
     font-family:Arial;
@@ -53,7 +58,9 @@ header li :hover {
     height:40%;
     width:50%;
     margin:auto;
-}
+    padding-bottom: 1em;
+    border-bottom: 2px solid rgb(161, 161, 161);
+}   
 
 #eerste{
     border-bottom-left-radius: 20px;
@@ -94,7 +101,8 @@ header li :hover {
 
 
 #news-block{
-
+    padding-bottom: 1em;
+    /*border-bottom: 2px solid rgb(161, 161, 161);*/
 }
 
 .newsBlockHeader{
