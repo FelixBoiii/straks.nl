@@ -64,11 +64,12 @@ header li :hover {
 
 #eerste{
     border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
     float:left;
     width:47%;
     height:100%;
     padding-left:1em;
-    background-image: url("https://st2.depositphotos.com/1001555/12334/i/950/depositphotos_123342522-stockafbeelding-vreemde-valuta-bankbiljetten.jpg://s3-storage.textopus.nl/wp-content/uploads/2015/10/17172744/valuta-omrekenen-512x324.jpg");
+    background-image: url("https://images3.persgroep.net/rcs/oqf1IwMxBV262wdEhmI-1y9kE5k/diocontent/112415753/_crop/0/0/1589/1044/_fitwidth/763?appId=93a17a8fd81db0de025c8abd1cca1279&quality=0.8");
 }
 #eerste h1{
     color:white;
@@ -86,6 +87,7 @@ header li :hover {
     float:right;
     padding-left:1em;
     border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
     background-image: url("https://www.statnews.com/wp-content/uploads/2019/04/AP_19116489195346-645x645.jpg");
 }
 #tweede h1{
@@ -101,19 +103,38 @@ header li :hover {
 
 
 #news-block{
-    padding-bottom: 1em;
-    /*border-bottom: 2px solid rgb(161, 161, 161);*/
+    
+}
+
+.img-block{
+    
+}
+
+.news-block-ul{
+    margin:0;
+    padding-left:1em;
+    padding-bottom:1em;
+}
+
+.news-block-li{
+    list-style-type: none;
+}
+
+.news-block-li a{
+    text-decoration: none;
+    color:black;
 }
 
 .newsBlockHeader{
     background: transparent;
     background-color: #010050;
     color: white;
-    padding: 8px 17px 8px 15px;
+    padding: 8px 15px 8px 15px;
     display: inline-block;
     border-radius: 4px;
     border-top-right-radius: 16px;
     border-bottom-right-radius: 16px;
-    height: 32px;
+    height: 25px;
     margin-bottom: 16px;
+    margin-left: 0.5em;
 }
