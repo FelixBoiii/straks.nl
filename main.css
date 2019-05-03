@@ -112,16 +112,15 @@ header li :hover {
 }
 
 .news-block-ul{
-    margin:0;
+    margin:0 0 0 1em;
     padding:0;
-    width:47%;
-    
-    
 }
 
 .news-block-li{
+    width:45%;
     list-style-type: none;
     margin:1em 1em 0 1em;
+    float:left;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -134,6 +133,13 @@ header li :hover {
 .news-block-li a img{
     width: 100%;
     max-width: none;
+}
+
+.news-block-li a p{
+    margin-left:1em;
+    font-weight:700;
+    font-size:19px;
+    color:rgb(54, 54, 54);
 }
 /*.img-block{
 
