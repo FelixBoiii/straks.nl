@@ -12,6 +12,7 @@ body{
     overflow: hidden;
 }
 .container{
+    padding:0 0 1em 0;
     width:50%;
     margin:auto;
     overflow: hidden;
@@ -117,9 +118,10 @@ header li :hover {
 }
 
 .news-block-li{
+    border-radius: 1em;
     width:45%;
     list-style-type: none;
-    margin:1em 1em 0 1em;
+    margin:0 1em 1em 1em;
     float:left;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -127,12 +129,12 @@ header li :hover {
 .news-block-li a{
     text-decoration: none;
     color:black;
-    
 }
 
 .news-block-li a img{
     width: 100%;
     max-width: none;
+    border-radius: 1em 1em 0 0;
 }
 
 .news-block-li a p{
@@ -159,9 +161,51 @@ header li :hover {
     color:black;
 }*/
 
-.newsBlockHeader{
+.newsBlockHeader1{
     background: transparent;
     background-color: #010050;
+    color: white;
+    padding: 8px 15px 8px 15px;
+    display: inline-block;
+    border-radius: 4px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    height: 25px;
+    margin-bottom: 16px;
+    margin-left: 0.5em;
+}
+
+.newsBlockHeader2{
+    background: transparent;
+    background-color: #e00613;
+    color: white;
+    padding: 8px 15px 8px 15px;
+    display: inline-block;
+    border-radius: 4px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    height: 25px;
+    margin-bottom: 16px;
+    margin-left: 0.5em;
+}
+
+.newsBlockHeader3{
+    background: transparent;
+    background-color: #e00613;
+    color: white;
+    padding: 8px 15px 8px 15px;
+    display: inline-block;
+    border-radius: 4px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    height: 25px;
+    margin-bottom: 16px;
+    margin-left: 0.5em;
+}
+
+.newsBlockHeader4{
+    background: transparent;
+    background-color: #e00613;
     color: white;
     padding: 8px 15px 8px 15px;
     display: inline-block;
