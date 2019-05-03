@@ -7,13 +7,13 @@ body{
 }
 
 .containerHeader{
-    width:50%;
+    width:70%;
     margin:auto;
     overflow: hidden;
 }
 .container{
     padding:0 0 1em 0;
-    width:50%;
+    width:60%;
     margin:auto;
     overflow: hidden;
     border-bottom: 2px solid rgb(161, 161, 161);
@@ -78,7 +78,7 @@ header li :hover {
 }
 #eerste h1{
     color:white;
-    margin-top:250px;
+    margin-top:50%;
     font-size:30px;
     margin-bottom:0;
 }
@@ -97,7 +97,7 @@ header li :hover {
 }
 #tweede h1{
     color:white;
-    margin-top:250px;
+    margin-top:50%;
     font-size:30px;
     margin-bottom:0;
     
