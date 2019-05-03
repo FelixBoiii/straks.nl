@@ -191,7 +191,7 @@ header li :hover {
 
 .newsBlockHeader3{
     background: transparent;
-    background-color: #e00613;
+    background-color: #ed893c;
     color: white;
     padding: 8px 15px 8px 15px;
     display: inline-block;
@@ -205,7 +205,7 @@ header li :hover {
 
 .newsBlockHeader4{
     background: transparent;
-    background-color: #e00613;
+    background-color: #5100af;
     color: white;
     padding: 8px 15px 8px 15px;
     display: inline-block;
@@ -216,3 +216,4 @@ header li :hover {
     margin-bottom: 16px;
     margin-left: 0.5em;
 }
+
