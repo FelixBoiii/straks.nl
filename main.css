@@ -121,7 +121,7 @@ header li :hover {
 
 .news-block-li{
     border-radius: 1em;
-    width:45%;/*%*/
+    width:45%   ;/*%*/
     list-style-type: none;
     margin:0 1em 1em 1em;
     float:left;
