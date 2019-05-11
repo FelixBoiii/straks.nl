@@ -228,18 +228,32 @@ header li :hover {
 }
 
 .imgContainer{
-    width:100px;
-    height:auto;
+    /*background-image: url("https://www.statnews.com/wp-content/uploads/2019/04/AP_19116489195346-645x645.jpg");*/
+    /*background-size: 100% 100%;*/
     padding:0;
     margin:0;
 }
 
-.image-of-article{ 
+#image-of-article{ 
     padding:0;
     margin:0;
     width:100%;
     height:auto;
-    object-fit: cover;
+    /*align-content: center;
+    object-fit: cover;*/
+}
+
+#bron{
+    font-size:13px;
+    margin:0.1em 0 0 0;
+    padding:0;
+    color:rgba(0, 0, 0, 0.7);
+}
+
+#inleiding{
+    margin-top:0.8em;
+    margin-bottom:0.3em;
+    font-weight:700;
 }
 
 .header-article{
