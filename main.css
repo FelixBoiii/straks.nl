@@ -31,6 +31,12 @@ body{
     border-bottom: 2px solid rgb(161, 161, 161);
 }
 
+.header-straks{
+    text-decoration: none;
+    color:black;
+    margin:0;
+    padding:0;
+}
 
 header{
     /*border-bottom: 1px solid rgba(100, 100, 100, 0.6);*/
@@ -40,7 +46,7 @@ header{
     width: 100%;
     background-color:rgb(255, 255, 255);
 }
-header a{
+.nav-a{
     font-family:Arial;
     text-decoration: none;
     color:black;
@@ -216,6 +222,20 @@ header li :hover {
 .newsBlockHeader4{
     background: transparent;
     background-color: #5100af;
+    color: white;
+    padding: 8px 15px 8px 15px;
+    display: inline-block;
+    border-radius: 4px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    height: 25px;
+    margin-bottom: 16px;
+    margin-left: 0.5em;
+}
+
+.newsBlockHeader5{
+    background: transparent;
+    background-color: #23af00;
     color: white;
     padding: 8px 15px 8px 15px;
     display: inline-block;
