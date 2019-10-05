@@ -283,3 +283,8 @@ header li :hover {
     font-size:40px;
     padding:0;
 }
+@media (max-width: 500px) { 
+    .containerArticle{
+    width:90%;
+    }
+}
